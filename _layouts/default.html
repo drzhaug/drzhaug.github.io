@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include navbar.html %}
+    <div class="template-page-wrapper">
+        {% include sidebar.html %}
+            <div class="templatemo-content-wrapper">
+                <div class="templatemo-content">
+                {{ content }}
+                </div>
+            </div>              
+     {% include foot.html %}
+    </div>    
+    {% include scripts.html %}
+  </body>
+</html>
